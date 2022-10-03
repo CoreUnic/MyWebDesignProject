@@ -1,0 +1,250 @@
+
+
+/* quicksand-regular - latin */
+@font-face {
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/static/roboto-flex-v9-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/static/roboto-flex-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/static/roboto-flex-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/static/roboto-flex-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/static/roboto-flex-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/static/roboto-flex-v9-latin-regular.svg#RobotoFlex') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    /* roboto-mono-regular - latin */
+
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/static/roboto-mono-v22-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+            url('../fonts/static/roboto-mono-v22-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('../fonts/static/roboto-mono-v22-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+            url('../fonts/static/roboto-mono-v22-latin-regular.woff') format('woff'), /* Modern Browsers */
+            url('../fonts/static/roboto-mono-v22-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('../fonts/static/roboto-mono-v22-latin-regular.svg#RobotoMono') format('svg'); /* Legacy iOS */
+     
+}
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Roboto Mono', 'sans-serif';
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+h2, p, h3 {
+    font-family: 'Roboto Mono', 'sans-serif';
+}
+
+.box {
+    margin: 0 auto;
+    height: 300px;
+    width: 1200px;
+    border: 1px solid black;
+    text-align: left;
+    margin-top: 15px;
+}
+
+h2, h3 {
+    padding-left: 15px;
+}
+
+.beige {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    line-height: 2;
+    text-transform: uppercase;
+    padding-top: 10px;
+    width: 150px;
+    height: 80px;
+    margin-left: 15px;
+    background-color: hsl(25, 60%, 62%);
+    border: 3px solid black;
+}
+
+.wtr-blue {
+    display:inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 13px;
+    line-height: 2;
+    text-transform: uppercase;
+    padding-top: 10px;
+    width: 150px;
+    height: 80px;
+    margin-left: 15px;
+    background-color: hsl(208, 82%, 56%);
+    border: 3px solid black;
+}
+
+.whte-red {
+    display:inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 13px;
+    line-height: 2;
+    text-transform: uppercase;
+    padding-top: 10px;
+    width: 150px;
+    height: 80px;
+    margin-left: 15px;
+    background-color: hsl(360, 44%, 49%);
+    border: 3px solid black;
+}
+
+.green {
+    display:inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 13px;
+    line-height: 2;
+    text-transform: uppercase;
+    padding-top: 10px;
+    width: 150px;
+    height: 80px;
+    margin-left: 15px;
+    background-color: hsl(123, 30%, 51%);
+    border: 3px solid black;
+}
+
+li {
+    font-family: 'Roboto Mono';
+}
+
+.sand {
+    display: inline-block;
+    position: relative;
+    width: 450px;
+    line-height: .5;
+}
+
+.flex {
+    font-family: 'Roboto Flex';
+    line-height: .4;
+    padding-left: 15px;
+}
+
+.two {
+    font-size: 25px;
+    font-weight:100;
+}
+
+.four {
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.nine {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.mono {
+    font-family: 'Roboto Mono';
+    line-height: .4;
+    padding-left: 15px;
+}
+
+.txt-style {
+    height: 600px;
+}
+
+.h {
+    position:relative;
+    display: inline-block;
+    width: 500px;
+    margin: 0 50px;
+}
+
+.h h1 {
+    padding-left: 15px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.h h2 {
+    padding-left: 15px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.h h3 {
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.p{
+    margin-top: 15px;
+    margin-left: 25px;
+    position: absolute;
+    display: inline-block;
+}
+
+.boxw {
+    margin-top: 15px;
+    position: relative;
+    display: inline-block;
+    padding-left: 19px;
+    font-family: 'Roboto Mono';
+}
+
+a {
+    text-decoration: none;
+    border: solid;
+    padding: 12px 35px;
+}
+
+.cyber a {
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    background-color: hsl(208, 82%, 56%);
+    color: hsl(360, 44%, 49%);
+}
+
+.hover a:hover {
+    background-color: hsl(360, 44%, 49%);
+    color: hsl(208, 82%, 56%);
+}
+
+.active a:active {
+    background-color: hsl(123, 30%, 51%);
+    color: hsl(360, 44%, 49%);
+}
+
+.cybert a {
+    border-top-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: hsl(208, 82%, 56%);
+    color: hsl(360, 44%, 49%);
+}
+
+.cybertr a {
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    background-color: hsl(208, 82%, 56%);
+    color: hsl(360, 44%, 49%);
+}
+
